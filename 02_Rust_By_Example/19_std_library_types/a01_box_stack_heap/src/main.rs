@@ -30,7 +30,7 @@ fn main() {
 
     let boxed_point: Box<Point> = Box::new(origin());
 
-    // Bouble indirection
+    // Double indirection
     let box_in_box: Box<&Box<Point>> = Box::new(&boxed_point);
 
     println!(
