@@ -1,7 +1,9 @@
 # Result
 
+- https://stackoverflow.com/questions/29570607/is-there-a-good-way-to-convert-a-vect-to-an-array 
+
 ```
-result : 15
-result2 : 15
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+85
 
 ```
