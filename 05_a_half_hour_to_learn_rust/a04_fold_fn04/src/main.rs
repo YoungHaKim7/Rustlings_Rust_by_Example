@@ -12,6 +12,6 @@ fn main() {
     let y: [i32; 10] = vector_to_array(x).unwrap();
     println!("{:?}", &y);
 
-    let z = y.iter().fold(0, |x, y| x + y);
+    let z = y.iter().map(|x| x + 3).fold(0, |x, y| x + y);
     println!("{}", z);
 }
