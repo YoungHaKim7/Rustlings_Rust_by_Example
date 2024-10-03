@@ -17,6 +17,12 @@ fn abs_all(input: &mut Cow<[i32]>) {
 
 fn main() {
     // You can optionally experiment here.
+    let my_vec = vec![-1, 0, 1];
+    let binding = my_vec.clone();
+    let mut input = Cow::from(&binding);
+    abs_all(&mut input);
+    dbg!(my_vec);
+    dbg!(input);
 }
 
 #[cfg(test)]
