@@ -22,6 +22,7 @@ fn fruit_basket() -> HashMap<String, u32> {
 
 fn main() {
     // You can optionally experiment here.
+    println!("{:?}", fruit_basket());
 }
 
 #[cfg(test)]
